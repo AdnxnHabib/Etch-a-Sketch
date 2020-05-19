@@ -1,14 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .container{
-    
+ height: 100vh;
+ display:flex;
+ justify-content: center;
+
+ align-items:center;
+
 }
 
 .columnn {
-    display: flex;
-    border: 10px solid red;
+    
+   
+
+    
 }
 
-.row{
+.cell{
   
-    border: 10px solid blue;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
     
 }
